@@ -7,12 +7,19 @@ body {
     margin: auto;
     height: 100%;
 }
+
+.header {
+    display: inline-block;
+    top: 0;
+}
+
 ul{
     list-style-type: none;
-    display: flex;
+    display: inline-block;
     float: right;
-    top: 0;
-    align-content: space-between; 
+    top: 0; 
+    position: fixed;
+    z-index: 3;
 }
 
 .backgroundImage {
@@ -21,6 +28,8 @@ ul{
     height: 100%;
     width: 100%;
     background-size: cover;
+    background-position: right bottom;
+    min-height: 660px;
     z-index: -3;
 }
 
@@ -29,11 +38,28 @@ ul{
     z-index: 3;
     color: #ffff;
     position: relative;
+    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+}
 
-.huluLogo {
-display: inline-block
-  top: 0;
+.arrow {
+    text-align: center;
+    width: 557px;
+    height: 25px;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    color: #ffff;
+}
+
+.arrowSign {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }

@@ -4,12 +4,15 @@ body {
     font-weight: 400;
     line-height: 1.5;
     background-color: #f5f6f7;
-    margin: 0px;
+    margin: auto;
     height: 100%;
 }
-ul {
+ul{
     list-style-type: none;
-    display: inline;
+    display: flex;
+    float: right;
+    top: 0;
+    align-content: space-between; 
 }
 
 .backgroundImage {
@@ -22,18 +25,19 @@ ul {
 }
 
 .section1Text {
-    margin-left: auto;
-    margin-right: auto;
+    margin : 0;
     z-index: 3;
     color: #ffff;
+    text-align: center;
 }
 
 .section1Text h1{
     text-size-adjust: 48px;
-    margin-bottom: 0;
     letter-spacing: -0.5px;
+    text-align: right;
 }
 
 .huluLogo {
-    display: inline-flex;
+display: inline-block
+  top: 0;
 }

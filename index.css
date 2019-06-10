@@ -7,6 +7,9 @@ body {
     margin: 0px;
     height: 100%;
 }
+ul {
+    list-style-type: none;
+}
 
 .backgroundImage {
     background-image: linear-gradient(0deg,transparent 60%,rgba(0,0,0,0.2) 90%,rgba(0,0,0,0.4) 100%),url(https://hulu-matchmaker.s3.us-west-2.amazonaws.com/2018-01/1600-lifestyle-background%402x.jpg);
@@ -19,6 +22,7 @@ body {
 
 .section1Text {
     margin: auto;
+    z-index: 3;
 }
 
 .huluLogo {

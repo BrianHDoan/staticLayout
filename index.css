@@ -9,6 +9,7 @@ body {
 }
 ul {
     list-style-type: none;
+    display: inline;
 }
 
 .backgroundImage {
@@ -21,10 +22,18 @@ ul {
 }
 
 .section1Text {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 3;
+    color: #ffff;
+}
+
+.section1Text h1{
+    text-size-adjust: 48px;
+    margin-bottom: 0;
+    letter-spacing: -0.5px;
 }
 
 .huluLogo {
-    display: flex;
+    display: inline-flex;
 }

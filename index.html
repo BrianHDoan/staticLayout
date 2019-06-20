@@ -4,41 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel='icon' type='image/png' href='assets/huluLogo16x16.png'>
+    
     <title>Stream TV and Movies Live and Online | Hulu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel='icon' type='image/png' href='assets/huluLogo16x16.png'>
 </head>
 <body>
-        <div class = backgroundImage></div>
-    <div class = wrapper>
-        <header>
-            <div class="header">
-                <div class = huluLogo>Hulu</div>
-                <nav class = huluLogo huluNav>
-                    <ul>
-                        <li><a href="https://signup.hulu.com/plans" target="_blank">START YOUR FREE TRIAL</a></li>
-                        <li><a href=""target="_blank">LOG IN</a></li>
-                    </ul>
-                </nav>
+
+    <!--Navbar-->
+    <section>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: transparent">
+            <a class="navbar-brand" href="#">hulu</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="nav-content">
+                    <a class="nav-item nav-link nav1" href="#">START YOUR FREE TRIAL</a>
+                    <a class="nav-item nav-link" href="#">LOG IN</a>
+                </div>
             </div>
-        </header>
-        <div class = section1Text>
-            <h1>All Your TV In One Place</h1>
-            <h4>Watch thousands of shows and movies, with plans starting at $5.99/month.</h4>
-            <h4><b>HBO®, SHOWTIME®, CINEMAX® and STARZ® available as add-ons.</b></h4>
-            <h3>START YOUR FREE TRIAL</h3>
-            <h6>Free trial available for new and eligible returning subscribers only.</h6>
-        </div>
-        <div class = arrow>
-            <h4>PLAN OPTIONS</h4>
-            <div class="arrowSign">
-                <a href="#planOptions"><img src="https://www.hulu.com/static/hitch/static/icons/arrow_down.svg"></a>
-            </div>
-        </div>
+        </nav>
+    </section>
+    
+    <!--Firstbox-->
+    <section>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4"></h1>
+                <h1 id="jumbo-h1">All Your TV In One Place</h1>
+                <h4 class="h4">Watch thousands of shows and movies, with plans starting</h4> 
+                <h4 class="spacer">at $5.99/month.</h4>
+                <h4 class="channels"><b>HBO®, SHOWTIME®, CINEMAX® and STARZ® available as add-ons.</b></h4>
+                <p><button >START YOUR FREE TRIAL</button></p>
+                <h6>Free trial available for new and eligible returning subscribers only.</h6>
+                <div class = arrow>
+                    <h6>PLAN OPTIONS</h6>
+                    <div class="arrowSign">
+                        <a href="#planOptions"><img src="https://www.hulu.com/static/hitch/static/icons/arrow_down.svg"></a>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </section>
+    
+    <!--Ad Picture-->
+    <section>
         <div class="adPic">
             <img src="https://hulu-matchmaker.s3.us-west-2.amazonaws.com/2019-01/1600-content-grid-2X_1.jpg?DGw4IvJIypp7ynwDtnAMYw17F719vdLP">
         </div>
-    </div>
+    </section>
+
+    <!--Plan Section-->
+    <section>
+        <div class="planTitle" id="planOptions">
+            <h2>Select Your Plan</h2>
+            <h3>No hiddden fees, equipment rentals or installation appointments.</h3>
+        </div>
+        <div class="cards">
+            <div class="card1">
+                <div class="card" style="width: 536px">
+                    <div class="card-body">
+                        <h5 class="card-title">HULU</h5>
+                        <h4 class="card-subtitle mb-2 text-muted">Get 1 month free, then starts at</h4>
+                        <div class="price">
+                            <h1>$5.99/</h1>
+                            <p>month</p>
+                        </div>
+                        <button>SELECT PLAN</button>
+                        <hr width="100%" />
+                        <ul class="card-text">
+                            <li>Get unlimited access to the Hulu streaming library <br> with limited or no ads. Enjoy full seasons of <br>
+                                 exclusive series, hit movies, Hulu Originals, kids <br> shows, and more</li>
+                            <br>
+                            <li>Watch on your favorite devices</li>
+                            <br>
+                            <li>Switch plans or cancel anytime</li>
+                        </ul>
+                        <hr />                        
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="card" style="width: 536px">
+                    <div class="card-body">
+                        <h5 class="card-title">HULU + LIVE TV</h5>
+                        <h4 class="card-subtitle mb-2 text-muted">Get 7 days free, then starts at</h4>
+                        <div class="price">
+                            <h1>$44.99/</h1>
+                            <p>month</p>
+                        </div>
+                        <button>SELECT PLAN</button>
+                        <hr width="100%" />
+                        <ul class="card-text">
+                            <li>Get unlimited access to the Hulu streaming library <br> with limited ads. Enjoy full seasons of <br> 
+                                exclusive series, hit movies, Hulu Originals, kids <br> shows, and more</li>
+                            <br>
+                            <li>Stream 60+ top Live and On Demand TV channels including sports, news, and entertainment</li>
+                            <br>
+                            <li>Record Live TV with 50 hours of Cloud DVR storage</li>
+                            <br>
+                            <li>Watch Live TV online and on supported devices</li>
+                            <br>
+                            <li>Switch plans or cancel anytime</li>
+                        </ul>
+                        <hr />
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
 
